@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+.nav-item{
+    color: rgb(99, 115, 129);
+    text-transform: capitalize;
+    font-family: "Public Sans", sans-serif;
+    border-radius: 8px;
+}
+
+.nav-item--active{
+    color: rgb(32, 101, 209);
+    background-color: rgba(32, 101, 209, 0.08);
+    border-radius: 8px;
+}
+.nav-item--activetxt{
+    color: rgb(32, 101, 209);
+}
+
+.nav-item--btn{
+    border-radius: 8px;
+}
+.sidebar{
+    padding: 0 10px !important;
+    padding-top: 2vh !important;
+}
+
+.toolbar img{
+    height: 4.8vh;
+}
+.toolbar span{
+    margin-left: 15px;
+    font-weight: 700;
+    line-height: 1.5;
+    font-size: larger;
+    font-family: "Ubuntu", sans-serif;
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+    color:rgb(111, 126, 140);
+    border-bottom-color: #FFB600;
+}
+
+.profile-option{
+    position: absolute;
+    right: 5%;
+}
+
+
+
+/*----------  Upload Solutions  -------------*/
+
+.upload-wrapper{
+    padding-top: 10px;
+    text-align: center;
+    font-family: "Ubuntu", sans-serif;
+    color:rgb(42, 44, 46);
+}
